@@ -8,7 +8,15 @@
 <script type="text/javascript" src="qrcode.js"></script>
 </head>
 <body>
-<input id="text" type="text" value="PiggyCoin" style="width:80%" /><br />
+	<style>
+.qr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
+<input id="text" type="text" class="qr" value="PiggyCoin" style="width:80%" /><br />
 <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
 <button id= "btn">Submit</button>
 
